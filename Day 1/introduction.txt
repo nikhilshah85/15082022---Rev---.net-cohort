@@ -1,0 +1,40 @@
+
+
+
+		.Net Framework 
+			C# language (Master OOPS concepts)
+			Console Application (Black screen app) - No UI
+			ADO.Net  (Working with databases)
+
+			SQL Server - Database 
+
+			ASP.Net MVC (Web development) - Websites 
+			
+			Angular (By google)  - WebSites and Mobile apps
+
+---------------------------------------------------------------------------------------------------------
+		Weekly QC 
+		Weekly 1-on-1
+
+
+		Projects - 
+		project 0 - Individual - (C#, OOPS, SQL and ADO.Net)
+					 Console APP 
+
+		Project 1 - Individual/Team (4-5 members per team) - ASP.Net MVC - web site with ADO.Net/ Entity Framework
+					SQL Server on Azure cloud
+
+
+		Project 2 - Group Project (every1) - Angular 
+
+
+
+
+
+
+
+
+
+
+
+		
