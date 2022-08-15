@@ -1,0 +1,27 @@
+
+
+
+
+
+git Hub
+https://git-scm.com/download/win
+
+
+Visual Studio 2022 - Community
+https://visualstudio.microsoft.com/vs/community/
+
+SQL Server
+https://www.microsoft.com/en-in/sql-server/sql-server-downloads
+
+SQl Server Management studio 
+https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16
+
+---------------------------------------------------------------------------
+
+1. You need to create a new Github account (use if you already have 1)
+2. Download and install git software
+3. clone my repository to your machine
+
+	so that, when I create a  new file, project, document and upload to my github, 
+			you would be able to download to your machine with the help of small command
+			git pull

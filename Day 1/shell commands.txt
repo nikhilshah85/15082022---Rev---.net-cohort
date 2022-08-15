@@ -1,0 +1,14 @@
+					Shell Commands
+
+
+		1. windows + R - cmd
+		2. dir - show me the list of directories
+		3. cls - clear screen 
+		4. cd - change directory 
+		5. cd..
+			cd .. - go 1 level down
+		6. rm foldername / filename
+		7. mkdir - create a new directory
+		8. pwd - print working directory
+		9. touch -c details.txt (this will create a new file details.txt)
+			
