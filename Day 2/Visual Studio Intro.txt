@@ -1,0 +1,49 @@
+Visual Studio 
+
+1. Solution Explorer (Control + Alt + L)
+	This is project tree - files and dependencies
+
+2. Code Area - open a file from solution explorer (double click)
+	start to code / design 
+
+3. Comments - add a lot of comments, comments will not execute
+		// it is like note for future reference
+
+	control + K + C (comments)
+	control + K + U (uncomments)
+
+4. Build / Compile the application 
+	convert text based code to machine code
+	check for errors
+	show warning if any
+
+	(control + shift + b)
+
+5. Run the application
+	Run with Debug (this is when you want to know what is happening in every line of code)
+		F5
+	Run without Debug (Run it as an end user)
+		Control + F5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

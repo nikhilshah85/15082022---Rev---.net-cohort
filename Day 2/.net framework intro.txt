@@ -1,0 +1,29 @@
+
+
+				.Net Framework (Since 1999) - 1.0, 1.1, 2.0, 3.0, 3.5, 4.0, 4.5,4.7
+						This is for Windows 
+						Develop app on Windows and run on Windows
+
+				.Net Core (this is cross-platform) - 
+					Develop anywhere - use Anywhere
+
+
+	---------------------------------------------------------------------------------------------------------------------------------
+				.Net Framework / Core
+
+				a. Base Class Library (BCL) 
+					Library is a set of - pre-written code
+				b. CLR - Common Language Runtime 
+					This is an Execution engine, your code will run inside this box/environment
+					environment takes care of - security, threading, communicaiotn, memory management, GC
+
+			
+				Console Application - black screen with text
+				Libraries
+				WinForm 
+				WPF
+				WebAPPs - ASP.net MVC
+				Mobile Apps
+				Cloud Based App
+				Reports
+				AL / ML apps

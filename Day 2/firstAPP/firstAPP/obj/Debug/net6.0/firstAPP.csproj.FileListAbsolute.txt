@@ -1,0 +1,15 @@
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 2\firstAPP\firstAPP\bin\Debug\net6.0\firstAPP.exe
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 2\firstAPP\firstAPP\bin\Debug\net6.0\firstAPP.deps.json
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 2\firstAPP\firstAPP\bin\Debug\net6.0\firstAPP.runtimeconfig.json
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 2\firstAPP\firstAPP\bin\Debug\net6.0\firstAPP.dll
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 2\firstAPP\firstAPP\bin\Debug\net6.0\firstAPP.pdb
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 2\firstAPP\firstAPP\obj\Debug\net6.0\firstAPP.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 2\firstAPP\firstAPP\obj\Debug\net6.0\firstAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 2\firstAPP\firstAPP\obj\Debug\net6.0\firstAPP.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 2\firstAPP\firstAPP\obj\Debug\net6.0\firstAPP.AssemblyInfo.cs
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 2\firstAPP\firstAPP\obj\Debug\net6.0\firstAPP.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 2\firstAPP\firstAPP\obj\Debug\net6.0\firstAPP.dll
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 2\firstAPP\firstAPP\obj\Debug\net6.0\refint\firstAPP.dll
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 2\firstAPP\firstAPP\obj\Debug\net6.0\firstAPP.pdb
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 2\firstAPP\firstAPP\obj\Debug\net6.0\firstAPP.genruntimeconfig.cache
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 2\firstAPP\firstAPP\obj\Debug\net6.0\ref\firstAPP.dll
