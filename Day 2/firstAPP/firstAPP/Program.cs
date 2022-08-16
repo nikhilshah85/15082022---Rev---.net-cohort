@@ -71,53 +71,92 @@
 #endregion
 
 
+
+
 Console.WriteLine("!! ~~~~~~~~~~~~ Welcome to Banking ~~~~~~~~~~~~~~~~~~~~ !!");
 
+#region Type of users
 Console.WriteLine("1. Admin");
 Console.WriteLine("2. Customer ");
+#endregion
 
 int userType = Convert.ToInt32(Console.ReadLine());
 
+#region User Type Menu
+
+//Admin
 if (userType == 1)
 {
-    Console.WriteLine("Welcome Admin");
-    Console.WriteLine("1. Create New Account");
-    Console.WriteLine("2. Print All Account Statement");
-    Console.WriteLine("3. Block an Account");
-    Console.WriteLine("4. Delete Account");
-    Console.WriteLine("5. Edit Account");
-    Console.WriteLine("6. Exit");
 
-    int adminChoice = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Enter Admin User name");
+    string adminUserName = Console.ReadLine();
 
-    switch (adminChoice)
-    {
-        case 1:
-            Console.WriteLine(" Thank you for opening a New Account");
-            break;
-        case 2:
-            Console.WriteLine("Printing All the statements");
-            break;
-        case 3:
-            Console.WriteLine("User Account Blocked ");
-            break;
-        case 4:
-            Console.WriteLine("Account deleted");
-            break;
-        case 5:
-            Console.WriteLine("Edit Account");
-            break;
-        case 6:
-            Console.WriteLine("Thank you for Banking, see you soon");
-            break;
-        default:
-            Console.WriteLine("Sorry Wrong Option");
-            break;
+    Console.WriteLine("Enter Admin Password");
+    string adminUserPassword = Console.ReadLine();
+
+    if (adminUserName == "Admin" && adminUserPassword == "Admin@1234")
+    {      
+
+
+        bool continueAdmin = true;
+
+        while (continueAdmin)
+        {
+            Console.Clear();
+
+            #region Admin Menu
+            Console.WriteLine("Welcome Admin");
+            Console.WriteLine("1. Create New Account");
+            Console.WriteLine("2. Print All Account Statement");
+            Console.WriteLine("3. Block an Account");
+            Console.WriteLine("4. Delete Account");
+            Console.WriteLine("5. Edit Account");
+            Console.WriteLine("6. Exit");
+            #endregion
+
+            #region Admin Switch case
+            int adminChoice = Convert.ToInt32(Console.ReadLine());
+
+            switch (adminChoice)
+            {
+                case 1:
+                    Console.WriteLine(" Thank you for opening a New Account");
+                    break;
+                case 2:
+                    Console.WriteLine("Printing All the statements");
+                    break;
+                case 3:
+                    Console.WriteLine("User Account Blocked ");
+                    break;
+                case 4:
+                    Console.WriteLine("Account deleted");
+                    break;
+                case 5:
+                    Console.WriteLine("Edit Account");
+                    break;
+                case 6:
+                    Console.WriteLine("Thank you for Banking, see you soon");
+                    continueAdmin = false;
+                    break;
+                default:
+                    Console.WriteLine("Sorry Wrong Option");
+                    break;
+            }
+            Console.ReadLine();
+            #endregion
+        }
     }
-
+    else
+    {
+        Console.WriteLine("Sorry Invalid Credentials");
+    }
 }
+
+
+//Customer
 else
 {
+    #region Customer Menu
     Console.WriteLine("Welcome Customer : Name ");
     Console.WriteLine("1. Widraw Funds ");
     Console.WriteLine("2. Deposit Funds ");
@@ -125,7 +164,39 @@ else
     Console.WriteLine("4. Request Statements ");
     Console.WriteLine("5. Change Password");
     Console.WriteLine("6. Exit");
+    #endregion
+
+    #region Customer Switch case
+    int customerChoice = Convert.ToInt32(Console.ReadLine());
+
+    switch (customerChoice)
+    {
+        case 1:
+            Console.WriteLine("Widrawal Processing");
+            break;
+        case 2:
+            Console.WriteLine("Deposit Processing");
+            break;
+        case 3:
+            Console.WriteLine("Funds Transfered Successfully");
+            break;
+        case 4:
+            Console.WriteLine("Statement downloading");
+            break;
+        case 5:
+            Console.WriteLine("Password changed");
+            break;
+        case 6:
+            Console.WriteLine("Thanks you for banking with us");
+            break;
+        default:
+            break;
+    }
+    #endregion
+
 }
+
+#endregion
 
 
 
