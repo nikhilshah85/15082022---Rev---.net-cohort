@@ -1,0 +1,51 @@
+
+
+
+
+
+			Project 0 - Banking Application
+
+			Welcome screen - will ask for user type
+				1. Admin
+				2. Customer
+
+			when user will choose, we ask for credentials - username and password
+			let user enter the same, we will check the username and password combination from database
+
+	----------------------------------------
+			Upon successful login, we will show respective menu to user
+
+		All the operations will be with database
+			1. Admin
+				a. create a new Account
+				b. Delete the account		
+				c. Edit Account Details
+				d. Transfer funds from 1 account to another account
+				e. search account based on account number
+				f. Accounts List
+				g. Summary
+					Total Accounts : ____	Total Balance : _________
+					Totals : Savings (50) Checking (18) Loan (6)
+				h. Exit
+
+			2. Customer
+				a. View Details
+				b. Widraw
+				c. Deposit
+				d. Transfer
+				e. change password
+				f. view last 5 transactions
+				g. exit
+
+
+
+
+
+
+
+
+
+
+
+
+					
