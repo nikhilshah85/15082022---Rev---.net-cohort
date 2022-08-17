@@ -1,0 +1,38 @@
+abstract
+virtual
+overrides
+
+abstraction
+encapsulation
+inheritance
+polymorphism
+
+----------------------------------------------
+1. Complete the OOPSDemo code 
+2. read W3schools blog
+3. Hunt Assignment - Diamond Problem
+4. Try : create a new console application - Banking
+
+	Accounts (parent class)
+		decide what properties should go here  - have 6 properties 
+		decide what methods are there in a banking system for accounts - have 2 methods (widraw, deposit)
+	
+		Absraction
+
+
+	design a class accordingly by writeing props and methods - Encapsulation 
+
+	Savings
+	Checking
+	Loan
+		Inheritance
+	---------------- Do not allow creation of Accounts class
+
+	savings can withdraw max 5000
+	checking can withdraw  max 20000
+	Loan can withdraw all the money they have - not more than they have
+		
+
+
+
+	
