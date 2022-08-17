@@ -1,0 +1,157 @@
+Data types
+conditions - control flow
+	if and else
+	switch
+	while
+
+
+---------------------------------------------------------------------------------------
+			OOPS - Object Oriented Programming System 
+
+				a. A developer should look at everything as an Object
+
+				b. An Object is an Real World Entity
+					Made up of
+						Properties - Describe an object
+							getter and setter
+						Methods / Functions
+							actions
+						Events
+							Retrospective action
+						Constructor
+							How is an object created
+						ENUMS
+							Fixed set of pre-defined values
+
+				c. We Design the object in a class file (.cs file)
+					create multiple objects from the design 
+						Class - is a Blue print of an object
+				d. There are 4 pillars to Design an Object
+					i. Abstraction
+				       ii. Encapsulation
+				      iii. Inheritance
+				       iv. Polymorphism
+
+	
+		 Abstraction	- What properties and methods, events, enums, constructors etc
+				should be a part of an object			
+					out of MY 100's of properties
+					Open a bank accounts
+			Consider only those properties, methods, events, enums, constructors etc as per the context of your 			application
+
+		Encapsulation  - Create things which are easy to use, but very very difficult to understand how it works
+				by createing propeties and methods
+
+
+
+		Inheritance - Reuse the code as much as possible
+
+		Polymorphism - Same signature, diffent behaviour
+				      method
+
+
+	--------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			

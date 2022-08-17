@@ -1,0 +1,6 @@
+Inheritance
+You can inherit only 1 class 
+
+Multiple inheritance is not allowed
+
+it creates a problem - Diamond Problem
