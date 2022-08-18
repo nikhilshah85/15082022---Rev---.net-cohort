@@ -15,7 +15,8 @@ polymorphism
 
 	Accounts (parent class)
 		decide what properties should go here  - have 6 properties 
-		decide what methods are there in a banking system for accounts - have 2 methods (widraw, deposit)
+		decide what methods are there in a banking system for accounts - have 2 methods 
+										(widraw, deposit)
 	
 		Absraction
 

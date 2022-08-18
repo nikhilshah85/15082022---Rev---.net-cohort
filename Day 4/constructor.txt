@@ -1,0 +1,17 @@
+
+
+
+
+
+
+
+
+	if we wish that object should not be created unless some values are provided
+		we can have a constructor in a class
+
+
+		1. constructor is like a method, which the name of a class
+		2. constructor does not have a return type
+		3. constructor gets called on its own, when a new object is initilised
+		4. by default, if you do not code a constructor, compiler adds a default contructor
+		5. constructor can take parameters

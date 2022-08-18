@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace bankingAPP
 {
-    abstract internal class Accounts
+    internal class Accounts
     {
         //accNo, accPIN, accBalance, accBranch, dailyLimit, accIsActive
 
@@ -41,11 +41,57 @@ namespace bankingAPP
             return accBalance;
         }
 
-        public double Deposit(double amountToDeposit)
+
+        public double Widraw(double amountToWidraw, string modeOfWithdraw)
         {
+            //some line of logic
+            return accBalance;
+        }
+        public virtual double Deposit(double amountToDeposit)
+        {
+
+            if (amountToDeposit < 0)
+            {
+                throw new Exception("You cannot deposit an Negative amount");
+            }
+
             accBalance = accBalance + amountToDeposit;
             return accBalance;
         }
         #endregion
+
+        public Accounts(int p_accNo, int p_accPin, string p_accBranch, double p_accBalance, double p_dailyLimit, bool p_accIsActive)
+        {
+            if (p_accBalance < 500)
+            {
+                throw new Exception("You Need minimum 500$ to open a new account");
+            }
+
+            if (p_accPin.ToString().Length != 4)
+            {
+                throw new Exception("Pin Number has to be 4 Digits");
+            }
+
+            if (p_dailyLimit < 1000)
+            {
+                throw new Exception("Daily limit should be minimum 1000");
+            }
+
+            else if (p_accNo < 0)
+            {
+                throw new Exception("Cannot have an Negative account number");
+            }
+
+            //after all the validations are done, we will assign all this parameters to property
+
+            this.accNo = p_accNo;
+            this.accPin = p_accPin;
+            this.accBranch = p_accBranch;
+            dailyLimit = p_dailyLimit;
+            accIsActive = p_accIsActive;
+            accBalance = p_accBalance;
+
+
+        }
     }
 }
