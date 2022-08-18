@@ -1,0 +1,15 @@
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 4\bankingAPP\bankingAPP\bin\Debug\net6.0\bankingAPP.exe
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 4\bankingAPP\bankingAPP\bin\Debug\net6.0\bankingAPP.deps.json
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 4\bankingAPP\bankingAPP\bin\Debug\net6.0\bankingAPP.runtimeconfig.json
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 4\bankingAPP\bankingAPP\bin\Debug\net6.0\bankingAPP.dll
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 4\bankingAPP\bankingAPP\bin\Debug\net6.0\bankingAPP.pdb
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 4\bankingAPP\bankingAPP\obj\Debug\net6.0\bankingAPP.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 4\bankingAPP\bankingAPP\obj\Debug\net6.0\bankingAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 4\bankingAPP\bankingAPP\obj\Debug\net6.0\bankingAPP.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 4\bankingAPP\bankingAPP\obj\Debug\net6.0\bankingAPP.AssemblyInfo.cs
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 4\bankingAPP\bankingAPP\obj\Debug\net6.0\bankingAPP.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 4\bankingAPP\bankingAPP\obj\Debug\net6.0\bankingAPP.dll
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 4\bankingAPP\bankingAPP\obj\Debug\net6.0\refint\bankingAPP.dll
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 4\bankingAPP\bankingAPP\obj\Debug\net6.0\bankingAPP.pdb
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 4\bankingAPP\bankingAPP\obj\Debug\net6.0\bankingAPP.genruntimeconfig.cache
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 4\bankingAPP\bankingAPP\obj\Debug\net6.0\ref\bankingAPP.dll
