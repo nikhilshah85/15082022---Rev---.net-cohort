@@ -1,0 +1,12 @@
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 5\bankingDLL\bankingDLL\bin\Debug\net6.0\bankingDLL.deps.json
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 5\bankingDLL\bankingDLL\bin\Debug\net6.0\bankingDLL.dll
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 5\bankingDLL\bankingDLL\bin\Debug\net6.0\bankingDLL.pdb
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 5\bankingDLL\bankingDLL\obj\Debug\net6.0\bankingDLL.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 5\bankingDLL\bankingDLL\obj\Debug\net6.0\bankingDLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 5\bankingDLL\bankingDLL\obj\Debug\net6.0\bankingDLL.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 5\bankingDLL\bankingDLL\obj\Debug\net6.0\bankingDLL.AssemblyInfo.cs
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 5\bankingDLL\bankingDLL\obj\Debug\net6.0\bankingDLL.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 5\bankingDLL\bankingDLL\obj\Debug\net6.0\bankingDLL.dll
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 5\bankingDLL\bankingDLL\obj\Debug\net6.0\refint\bankingDLL.dll
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 5\bankingDLL\bankingDLL\obj\Debug\net6.0\bankingDLL.pdb
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 5\bankingDLL\bankingDLL\obj\Debug\net6.0\ref\bankingDLL.dll

@@ -1,0 +1,44 @@
+
+
+
+
+						.Net Full Stack Developers
+
+
+		C# - OOPS - ADO.net, Entity framework 
+		Web Developer (Develop an website) - ASP.Net MVC Core
+		Database developer - SQL Server, Oracle, 
+		UI Developer - HTMl, CSS, JS, Bootstrap,Angular, react etc...
+		Middleware developer etc.....  - Web Services, REST API, WebAPI, WCF
+
+
+			Full Stack Developer
+	-----------------------------------------------------------------------------------------------
+		2 Tier application
+		3 Tier Application
+		n Tier
+
+
+	--------------------------------------------------------------------------------
+			CRUD
+			C - Create - ADD - Insert a new record / resource
+			R - Read - Get the data from server (all, based on ID, designation, order by, filter, search, group etc..)
+			U - Update - edit data
+			D - Delete - Remove 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
