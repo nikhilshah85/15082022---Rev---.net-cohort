@@ -1,0 +1,21 @@
+
+
+
+
+
+
+			- OOPS
+			- Conditions - if - if else, switch
+			- exception handling
+			- namespace
+			- abstract class, sealed class, singleton
+			- SOLID Principles
+			- data types
+
+
+		Monday - Join at 10 - QnA
+			QC 11 - 1
+			Lunch 1 - 2
+			SQL Server setup - Plan your project
+			
+			
