@@ -1,0 +1,8 @@
+create a new table AccountsInfo
+
+accNo,
+accName,
+accType,
+accBalance,
+accIsActive
+accType
