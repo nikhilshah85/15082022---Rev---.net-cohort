@@ -5,4 +5,3 @@ accName,
 accType,
 accBalance,
 accIsActive
-accType

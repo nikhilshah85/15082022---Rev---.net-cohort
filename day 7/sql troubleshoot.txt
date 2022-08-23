@@ -1,0 +1,1 @@
+https://docs.microsoft.com/en-us/troubleshoot/sql/admin/troubleshoot-os-4kb-disk-sector-size?WT.mc_id=DP-MVP-5440

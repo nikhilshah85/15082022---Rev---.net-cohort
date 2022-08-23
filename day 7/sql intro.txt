@@ -1,0 +1,51 @@
+
+
+
+
+		SQL - Structured Query Language - ISO standard to work on Data
+			
+			DDL - Data Defination Language (how do you work with the schema)
+				Create (create a new database, table, view, index, procedure, trigger, function, cursor, user etc)
+				alter (modify the schema)
+				drop (drop the object - any from above list)
+				
+			DML - Data Manipulation Language
+				Insert - Add a new record 
+				upate - update a an existing record
+				delete - delete an existing record
+	
+			DQL - Data Query Language (most used)
+				select = 13 types of commands with select
+
+					select with all the columns (*)
+					select with limited columns
+					select with column alias					
+					select with distinct  (unique values from column)
+					select with where clause (filter)
+					select with wild card operator (like, %, _)
+					select with orderby clause (sort)
+					select with aggregate functions
+					select with group by clause (grouping)
+					select with sub-query
+					select with Joins
+						equi join
+						left join
+						right join
+						full join 
+						null join
+						cartisian product
+						
+					
+			
+
+
+
+			DCL
+			DTL
+
+			Truncate
+
+
+		
+		TSQL - Transact SQL (programme your data)
+		
