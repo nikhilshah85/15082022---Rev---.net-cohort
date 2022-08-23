@@ -1,0 +1,4 @@
+1. Refer, read, practice, make notes on SQL DDL, DML, DQl
+2. Complete Both the PPTS
+3. If have more time
+	https://www.w3schools.com/sql/
