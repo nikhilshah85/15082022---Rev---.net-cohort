@@ -1,0 +1,23 @@
+1. Create or work on deptInfo table and empInfo
+2. drop the tables from yesterday (branchInfo and accountsInfo)
+
+	create below tables with constraint
+	a. branchInfo
+		branchNo - primary key
+		branchName - not null
+		branchLocation - only available in 5 locations 
+		branchEmail - unique
+	b. accountsInfo
+		accNo - primary key,
+		accName - not null and needs minimum 2 characters
+		accType - can only be (Savings, Checking or Loan)
+		accBalance - cannot be less than 100$
+		accIsActive - bit and not null
+		accBranch - foreign key to branchInfo
+		accSSN - unique
+		accEmail - unique
+
+
+	------------
+	Post Lunch : functions in SQL (10 mins)
+		    Joins in SQL (20 mins)
