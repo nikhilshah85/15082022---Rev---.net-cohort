@@ -30,25 +30,21 @@ namespace employeeManagementAPP
             return "Employee Added Successfully";
         }
 
-        public void CollectAddNewEmployeeDetails()
+        
+        public string DeleteEmployee(int empNo)
         {
-            Console.WriteLine("Enter New Employee Number");
-            int e_No = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Enter New Employee Name");
-            string e_Name = Console.ReadLine();
-
-            Console.WriteLine("Enter New Employee Designation");
-            string e_Designation = Console.ReadLine();
-
-            Console.WriteLine("Enter New Employee Salary");
-            int e_Salary = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Enter New Employee Is Permenant");
-            bool e_IsPermenat = Convert.ToBoolean(Console.ReadLine());
-
-            Console.WriteLine("Enter New Employee Emp Department");
-            int e_Dept = Convert.ToInt32(Console.ReadLine());
+            SqlConnection con = new SqlConnection("server=WIN8\\NIKHILINSTANCE;database=EmployeeManagementDB;user id=sa; password=Password1234");
+            SqlCommand cmd = new SqlCommand("delete from employeeInfo where empNo=@eNo", con);
+            SqlCommand cmd2 = new SqlCommand("delete from loginInfo where empNo=@eNo", con);
+            cmd.Parameters.AddWithValue("@eNo", empNo);
+            cmd2.Parameters.AddWithValue("@eNo", empNo);
+            con.Open();
+            cmd2.ExecuteNonQuery();
+            cmd.ExecuteNonQuery();
+            con.Close();
+            return "Employee Deleted Successfully";
         }
+
+
     }
 }
