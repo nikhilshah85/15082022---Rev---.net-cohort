@@ -1,0 +1,23 @@
+1. Codeing challage - bit of refresh on C#
+	Semi simple - semi difficult
+
+
+	Employee Management
+2. ADO.net today - CRUD operations Login
+		SQL (JOINS, Procedures, Trigger and functions)
+
+		Create  - Insert a new record (DML
+		Read - Select  (DQL)
+		Update - update a record (DML)
+		Delete - Delete a record (DML)
+	
+3. Debugging - no code 
+		20 lines of code
+
+	view the execution of code line by line
+
+	delete will delete a record - row
+	drop will drop the table
+
+
+

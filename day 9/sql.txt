@@ -1,0 +1,23 @@
+create database EmployeeManagementDB
+
+use EmployeeManagementDB
+
+create table LoginInfo
+(
+	userName varchar(20),
+	password varchar(20)
+)
+create table employeeInfo
+(
+	empNo int primary key,
+	empName varchar(20) not null,
+	empDesignation varchar(20) not null,
+	empSalary int not null,
+	empIsPermenant bit,
+	empDept int,
+
+	constraint chk_empDesignation check (empDesigantion in ('Developer','Manager','HR','Sales')),
+	constraint chk_empSalary check (empSalary between 8000 and 25000)
+
+	
+)
