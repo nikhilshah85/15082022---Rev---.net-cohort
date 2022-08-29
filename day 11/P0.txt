@@ -1,0 +1,27 @@
+
+
+
+
+
+			Welcome to Banking
+
+1. Admin
+2. Customer
+
+
+-------------------------
+Admin
+1. Show All accounts
+2. Search An Account
+3. Add New Account
+4. Delete Account
+5. Update Account
+
+
+Customer
+1. Get Details (enter account number) -- fire a join and show all the details for that customer
+2. Change Password
+3. Widraw
+4. Deposit
+5. Transfer (from 1 account to another account) - 2 updates
+

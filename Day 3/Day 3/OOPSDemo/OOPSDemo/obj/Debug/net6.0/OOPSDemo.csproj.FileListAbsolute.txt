@@ -1,0 +1,15 @@
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 3\OOPSDemo\OOPSDemo\bin\Debug\net6.0\OOPSDemo.exe
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 3\OOPSDemo\OOPSDemo\bin\Debug\net6.0\OOPSDemo.deps.json
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 3\OOPSDemo\OOPSDemo\bin\Debug\net6.0\OOPSDemo.runtimeconfig.json
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 3\OOPSDemo\OOPSDemo\bin\Debug\net6.0\OOPSDemo.dll
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 3\OOPSDemo\OOPSDemo\bin\Debug\net6.0\OOPSDemo.pdb
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 3\OOPSDemo\OOPSDemo\obj\Debug\net6.0\OOPSDemo.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 3\OOPSDemo\OOPSDemo\obj\Debug\net6.0\OOPSDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 3\OOPSDemo\OOPSDemo\obj\Debug\net6.0\OOPSDemo.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 3\OOPSDemo\OOPSDemo\obj\Debug\net6.0\OOPSDemo.AssemblyInfo.cs
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 3\OOPSDemo\OOPSDemo\obj\Debug\net6.0\OOPSDemo.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 3\OOPSDemo\OOPSDemo\obj\Debug\net6.0\OOPSDemo.dll
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 3\OOPSDemo\OOPSDemo\obj\Debug\net6.0\refint\OOPSDemo.dll
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 3\OOPSDemo\OOPSDemo\obj\Debug\net6.0\OOPSDemo.pdb
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 3\OOPSDemo\OOPSDemo\obj\Debug\net6.0\OOPSDemo.genruntimeconfig.cache
+C:\Users\hp\Desktop\15082022---Rev---.net-cohort\Day 3\OOPSDemo\OOPSDemo\obj\Debug\net6.0\ref\OOPSDemo.dll

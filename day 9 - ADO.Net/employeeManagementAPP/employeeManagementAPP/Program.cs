@@ -31,7 +31,8 @@ if (login)
         Console.WriteLine("2. Delete Employee");
         Console.WriteLine("3. Update Employee");
         Console.WriteLine("4. Search Employee");
-        Console.WriteLine("5. Exit");
+        Console.WriteLine("5. Employee List");
+        Console.WriteLine("6. Exit");
         #endregion
 
 
@@ -90,9 +91,40 @@ if (login)
                     break;
 
                 case 4:
-                    break;
+                    Console.WriteLine("Please Enter Employee Number");
+                    int v_empNo = Convert.ToInt32(Console.ReadLine());
+                    try
+                    {
+                        Employee detail = empObj.SearchEmployeeById(v_empNo);
+                        Console.WriteLine("Employee Number : " + detail.empNo);
+                        Console.WriteLine("Employee Name : " + detail.empName);
+                        Console.WriteLine("Employee Desigantion : " + detail.empDesignation);
+                        Console.WriteLine("Employee Salary : " + detail.empSalary);
+                        Console.WriteLine("Employee Is Permenant " + detail.empIsPermenant);
+                    }
+                    catch(Exception es)
+                    {
+                        Console.WriteLine(es.Message);
+                    }
 
+                    break;
                 case 5:
+
+                    List<Employee> eList = empObj.GetAllEmployees();
+                    foreach (var detail in eList)
+                    {
+                        Console.WriteLine("Employee Number : " + detail.empNo);
+                        Console.WriteLine("Employee Name : " + detail.empName);
+                        Console.WriteLine("Employee Desigantion : " + detail.empDesignation);
+                        Console.WriteLine("Employee Salary : " + detail.empSalary);
+                        Console.WriteLine("Employee Is Permenant " + detail.empIsPermenant);
+                        Console.WriteLine("------------------------------------------------------------------------");
+                    }
+
+                    break;
+                case 6:
+                    doOperation = false;
+                    Console.WriteLine("Thank you for banking with us");
                     break;
 
                 default:
@@ -104,7 +136,7 @@ if (login)
     {
         Console.Clear();
         #region UserMenu
-        Console.WriteLine("1. Check Account Details");
+        Console.WriteLine("1. Check Employee Details");
         Console.WriteLine("2. Change PIN");
         Console.WriteLine("3. Transfer Funds");
         Console.WriteLine("4. Show last 5 transactions");

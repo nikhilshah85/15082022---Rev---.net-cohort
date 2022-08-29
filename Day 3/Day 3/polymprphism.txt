@@ -1,0 +1,21 @@
+Developer can apply max 5 days of leave at a stretch
+
+HR can apply max 10 days of leave at a stretch
+
+Accounts can apply max 7 days  of leave at a stretch
+
+public int ApplyLeave(int days)
+
+-----------
+To achive Polymorphic behaviour
+
+1. we mark method as virtual in parent
+public virtual int ApplyLeave(int days)
+
+
+2. we mark the method as overrides in child
+--------------------------------------------
+
+
+
+

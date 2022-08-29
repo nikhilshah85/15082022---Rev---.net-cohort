@@ -1,0 +1,24 @@
+internal class Employee
+{
+..
+}
+
+interal class Manager : Employee
+{
+
+}
+
+interal class AccountsManager : Manager
+{
+
+}
+
+internal class HRManager : Manager
+{
+
+}
+
+internal class TrainerHR : HRManager, Employee
+{
+
+}

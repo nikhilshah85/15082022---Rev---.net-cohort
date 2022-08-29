@@ -459,11 +459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Desktop\\15082022---Rev---.net-cohort\\day 9\\employeeManagementAPP\\employeeManagementAPP\\employeeManagementAPP.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Desktop\\15082022---Rev---.net-cohort\\day 9 - ADO.Net\\employeeManagementAPP\\employeeManagementAPP\\employeeManagementAPP.csproj",
       "projectName": "employeeManagementAPP",
-      "projectPath": "C:\\Users\\hp\\Desktop\\15082022---Rev---.net-cohort\\day 9\\employeeManagementAPP\\employeeManagementAPP\\employeeManagementAPP.csproj",
+      "projectPath": "C:\\Users\\hp\\Desktop\\15082022---Rev---.net-cohort\\day 9 - ADO.Net\\employeeManagementAPP\\employeeManagementAPP\\employeeManagementAPP.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\Desktop\\15082022---Rev---.net-cohort\\day 9\\employeeManagementAPP\\employeeManagementAPP\\obj\\",
+      "outputPath": "C:\\Users\\hp\\Desktop\\15082022---Rev---.net-cohort\\day 9 - ADO.Net\\employeeManagementAPP\\employeeManagementAPP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
