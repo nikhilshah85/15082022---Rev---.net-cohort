@@ -1,0 +1,28 @@
+When you develop an application which speaks and understands Common Standard language - you are in SOA world
+
+--------------
+Web Services used XML and great applications were created 
+However, XML is bit heavy and slow in today world, we need something light and fast
+
+Web Service had its own draw back, (every technology has it)
+----------------------------------------
+
+and thus a better technology for the world
+and thus we have REST API Services (RESTFUL services) 
+	This are based on JSON format against XML 
+
+	This are services that run on HTTP Protocol and follows all the HTTP Standards
+
+		Major purpose is to exchange the data 
+		and we perform CRUD Operations using the service
+
+
+ 		C  - HttpPost
+		R  - HttpGet
+		U  - HttpPut
+		D  - HttpDelete
+
+-------------------------------------------------------------------------------------------------------
+	here REST api is not an UI - it is the data part - u will see all the data on browser in JSON format
+		
+

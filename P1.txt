@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+
+
+
+
+
+	Team Project: Team of 4 
+		Team will choose their Domain eg. Banking, Employee Mangement is a domain
+				
+
+		This will have 
+		ASP.Net MVC as (Frontend)
+		SQL Server on Azure Cloud (Backend) 
+
+		Entity Framework - ORM (ADO.Net is lenghty, and gets a bit complicated for more operations)
+			(Database driver framework for CRUD operation)

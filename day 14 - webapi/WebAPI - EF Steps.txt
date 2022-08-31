@@ -1,0 +1,113 @@
+1. create a new database
+ 	create database myshoppingDBAPI
+
+2. create table in this database
+	use myshoppingDBAPI
+
+	create table products
+	(
+		pId int primary key,
+		pName varchar(20),
+		pCategoty varchar(20),
+		pPrice int,
+		pIsInStock bit
+	)
+
+	insert into products values(1, 'Pepsi','Cold-Drink',1,1)
+	insert into products values(2, 'IPhone','Electronics',1750,1)
+	insert into products values(3, 'Air-pods','Electronics',800,0)
+	insert into products values(4, 'Fossil Q','watch',2400,1)
+	insert into products values(5, 'Trailhawk','SUV',40000,1)
+
+
+
+3. create a new webapi project myshoppingAPI
+
+4. We want to use Entity Framework - this is an replacement to ADO.Net, this is faster to use and develop
+
+	to to Manage nuget package manager from solution explorer
+
+	browse -> EntityFrameworkCore
+
+	install below 4 packages in a sequence
+
+	Microsoft.EntityFrameworkCore.Design
+	Microsoft.EntityFrameworkCore.Tools	
+	Microsoft.EntityFrameworkCore
+	Microsoft.EntityFrameworkCore.SqlServer
+
+
+5. Build the project
+
+6. Go to tools -> Nuget package manager -> Nuget package manager console
+
+7. fire the below command
+	Scaffold-Db
+
+	Scaffold-DbContext "Server=WIN8\NIKHILINSTANCE; database=myshoppingDBAPI; integrated security=true" -OutputDir Model\EF -	Provider Microsoft.EntityFrameworkCore.SqlServer
+
+
+8. build the project, right click on controller foler, add new API controller with action using EF
+
+9. choose the model class (table name.cs) and dbcontext file name (databasename file)
+
+10. build the app, in the new file that got created, 
+	instantiation the object by saying = new dbcontect file name
+	comment the constructor code
+
+11 built the prject and run the project, test the output
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
