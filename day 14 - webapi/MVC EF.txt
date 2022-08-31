@@ -1,0 +1,47 @@
+1.create a new ASP.net MVC web app 
+
+2. build the app and run the app
+
+3. you will see index.cshtml and privacy.cshtml
+
+4. add Entity framework nuget packages
+	same 4 like added in webapi
+
+5. from nuget package mangaer console from tools options
+	fire 
+
+	Scaffold-DbContext "Server=WIN8\NIKHILINSTANCE; database=myshoppingDBAPI; integrated security=true" -OutputDir Models\EF -	Provider Microsoft.EntityFrameworkCore.SqlServer
+
+6. build the applcation
+
+7. right click on controller, add controller  - choose MVC controller with views using EF
+	choose table class and dbcontext class
+8. build and run the applicaiton, 
+
+9 do the same activity for all the tables
+
+10. in the view folder, shared folder, you will see a file _layout.cshtml you can edit this file for UI 
+	add below links, just before closeing tag of <UL>
+
+	      <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Products" asp-action="Index">Products</a>
+                        </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Customers" asp-action="Index">Customers</a>
+                        </li>
+
+ Make sure you have correct value for asp-controller name and asp-action name
+
+	read this file once and you can make some changes if you kow HTMl, if you do nto know do not worry 
+
+
+
+
+
+
+
+
+
+
+
+
