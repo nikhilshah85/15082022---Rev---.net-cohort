@@ -1,0 +1,17 @@
+1. Authorization - this is an attribute if you apply this to a controller
+	or action, user will not be able to view it, unless the are identified
+
+2. Identity Framework
+	This will setup the security for our project
+	a. we need tables in database, which can have userdetails
+		username
+		password (this needs to be encrypted)
+
+		enable self service user
+			register, confirm registration
+			forgot password, reset password, 
+			enable 2FA
+			user profile management
+			oAuth - open source authentication
+				login using FB, twitter, microsoft, google
+

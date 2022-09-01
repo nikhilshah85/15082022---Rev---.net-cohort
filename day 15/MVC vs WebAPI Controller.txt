@@ -1,0 +1,8 @@
+If you are gives 2 controller files,
+1 is MVC 
+1 is WebAPI 
+
+how will u find which 1 is MVC and which one is WebAPI
+
+A WebAPI controller inherits (derives from) fron Controllerbase class
+A MVC controller inherits from Controller class

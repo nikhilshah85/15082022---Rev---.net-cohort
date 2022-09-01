@@ -1,0 +1,44 @@
+
+
+
+
+
+
+
+				Design pattern for web developer - MVC 
+
+
+			A web page will be divided into 3 parts - they will carry 1 responsibility
+
+
+
+			Model (.cs file - class file) with properties, methods, constructors, variables etc.....
+				Data - All the operations related to data will happen here
+				CRUD operations - insert,update, delete, filter, sort, grouping, validation, formatting, calcultion
+					ADO.Net
+					EF 
+					Excel file
+					XML file
+					In memory collections
+
+			View (.cshtml file)- View file - UI 
+				HTML, CSS, Javascript, JQuery, bootstrap, images, videos, logos etc.. goes here
+
+
+			Controller (.cs file) - class file - 
+				collect data from model ----> pass it to view
+				or
+				collect data from view ----> pass it to model
+			
+				security
+				encryptions
+
+
+
+
+
+
+
+
+
+
