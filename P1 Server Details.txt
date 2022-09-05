@@ -1,0 +1,3 @@
+nikhilshah-project-server.database.windows.net
+username : Project
+Password : Cohort@1234
