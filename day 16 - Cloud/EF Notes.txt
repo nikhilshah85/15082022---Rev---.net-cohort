@@ -1,0 +1,49 @@
+
+
+
+
+
+
+
+	Scaffold-DbContenxt
+			this commans will connect to server
+			get all the tables (which has primary keys)
+			all the constraints
+
+			and create a Model class for every table (called as POCO class)
+			
+			also create a class which derives from DBContext class
+			This class a properties DbSet<PocoClassName> PocoClassName
+
+			and knows to fire queries for CRUD, Select, insert update and delete
+
+	-------------------------------------------------------------------------------------------------------------------------
+
+		Entity framework is offered in 2 approaches
+			a. Code first approach
+				here you write the poco classes yourself, class, proeperies, method,dbcontext class
+					and database along with table will be created for you 
+				commands : Add-Migration somename
+					   update-database
+			b. database first approach, here you create database and tables first and POCO class and DBContext
+				will be created for you by framework
+				Scafold-DbContext connection string .....
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

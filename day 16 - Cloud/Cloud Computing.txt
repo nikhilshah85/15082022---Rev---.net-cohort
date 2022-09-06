@@ -1,0 +1,164 @@
+
+
+
+
+
+
+
+			Cloud Computing
+			SDLC - theory
+			Docker - containers and images
+				Microservies
+			DevOps 
+
+
+
+
+
+
+
+
+
+
+				Cloud Services 
+					useing someones elses hardware to run your software - over a new network
+
+
+			New Startup - u will need a 16GB RAM + I5 Processor + Storage 
+				buy 20 laptops - 2100$ * 20 - 42,000$
+
+				Internet connection - costly - 1200$ a month
+
+				servers - 4 server - 256GB ram + storage + processor + OS + IIS (windows server)
+						35,000 * 4 = 140000
+
+				cooling system
+
+
+			Thus this is huge investment for a team of 20 member
+
+		-----------------------------
+			This hardware will be lying ideal on weekends
+			They are used only between 8:00AM to 7:00PM
+
+		Why not get this hardware on demand
+		What if 16GB ram is not enough ??????
+
+			This is an example of Operating system with hardware
+
+
+		=----------------------------------------------------------------------------------------------
+			Cloud Services are divided as 
+				SAAS - Software as a service (you can use a software installed on their datacenter and access it)
+				PAAS - Platform as a service (OS)
+				IAAS - They provide hardware access 
+
+		---------------------------------------------------------------------------------
+				Providers - Microsfoft - Azure
+					    Amazon - AWS
+					    Google - GCP 
+						IMB, HP,...oralce
+		--------------------------------------------------------------------------------------
+			To use any of this services from any of the providers you need to buy a subscription
+				30 days free when you buy a new subscription - Credit card
+				after 30 days - Pay as you go - your get the chanrges in your next credit card bill
+
+	----------------------------------------------------------------------------------
+	
+		Azure certifications
+			AZ-900 - Azure fundamentals
+			AZ-204 - Azure development
+			AZ-104 - Azure Admin
+			AZ-400 - Azure DevOps
+			DP-200 - Data process enginner
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
