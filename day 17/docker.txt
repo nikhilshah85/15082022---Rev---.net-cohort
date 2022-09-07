@@ -1,0 +1,6 @@
+docker will allow you to convert an application into an Microservice Image
+docker will allow you to test the image in a container
+docker will allow you to push the image onto a Repository
+		docker hub - docker repository
+		Microsoft Azure - Azure Container Repository / Registry (ACR)
+		AWS - Buckets - they store the images

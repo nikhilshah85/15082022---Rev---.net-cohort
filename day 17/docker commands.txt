@@ -1,0 +1,27 @@
+docker --version
+docker images (check the list of images on my machine)
+docker ps (check the list of running containers on my machine) - this will show only those which are running, and not terminated or stopped
+docker ps -a (check the list of all the containers on my machine, running as well as closed, stopped, in  error)
+docker pull (pull an image from repository)
+docker run imagename (run the image in a container)
+	docker run hello-world (try to run the image from your machine, if image not found, download it from docker hub)
+
+
+docker pull nikhilshahdocker/shoppapp:v1
+docker run -d -p 7500:80 nikhilshahdocker/shoppapp:v1
+
+on the browser http://localhost:7500
+
+----------------------------------------------------------------------
+dotnet new mvc --name cohort082022
+dotnet build (be sure to be pointing inside cohort082022 folder
+dotnet run (check the command prompr it will have url
+shift + ctrl + p on vs code
+add docker file 
+	choose framework and version
+	follow instructions
+docker build . appname:versionname or versionnumber
+docker run appname:versionname or number
+docker login (login with docker id and password)
+docker tag appname:version dockerid/appname:version
+docker push dockerid/appname:version
