@@ -1,0 +1,123 @@
+
+
+
+
+		HTML, CSS and JS in detail
+			bootstrap, Jquery, JQueryUI
+			CDN 
+			We will also how many WebAPI call using fetch
+		Next project based on this
+
+
+-----------------------------------------------------------------------------------------
+
+		1. Any browser undersands only 3 languages
+			HTML, CSS and JS
+
+
+		2. HTML is not case scencetive
+		3. Tags should be closed before opening the next tag
+		4. Pages have .html extention
+----------------------------------------------------------------------------------------------
+		5. Hyper Text Markup Language - language for browser governed by W3C
+				World Wide Web Consorium
+			made up of tags and attributes 
+
+				Common tags
+					Header Tags - H1 to h6
+					paragraph tag - p
+					List tags 
+						Ordered List - <ol>
+						Unordered List - <ul>
+					Table tag - <table> <tr> <td> <th>
+					Hyperlinks - <a href="other page url"/>
+					Forms - <input type=""...>
+					box tag
+						<div> club miltiple tags as 1</div>
+
+
+			Web Page structure
+	
+			<html>
+				<title> Title of a Page </title>
+				<head> 
+					reference your CSS file <link href=""/>
+					reference your JS file <script src="..."/>
+
+					CDN
+				</head>
+
+				<script>
+						Write your javascript or JQuery functions here
+					
+				</script>
+
+				<body>
+					headers
+
+				</body>
+
+				<script>
+
+				</script>
+
+			</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+					
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
