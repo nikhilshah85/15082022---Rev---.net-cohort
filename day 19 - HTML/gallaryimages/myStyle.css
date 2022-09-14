@@ -1,0 +1,16 @@
+body{
+    background-color:cornflowerblue;
+    color: brown;
+}
+
+p:hover{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-style: oblique;
+    font-style: italic;
+}
+a:hover{
+    background-color: orangered;
+    font-size: larger;
+}
+

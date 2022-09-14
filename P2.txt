@@ -1,0 +1,15 @@
+Next Project - Individual One
+
+Create your Profile 
+	using HTML, CSS, JS, JQuery, JQueryUI, bootstrap
+
+		Home - welcome landing page 
+		About Me
+		What I do 
+		Life So Far
+		Photo Gallery
+		Contact Me
+		
+		some thing innovative 
+
+	How will you impress the visitor ????

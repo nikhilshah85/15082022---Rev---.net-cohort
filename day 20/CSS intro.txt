@@ -1,0 +1,54 @@
+
+
+
+
+		Cascading Stylesheet - Formatting HTML Tags
+
+
+			selector:{property:value}
+
+		selector: HTML tag
+			  ID of a tag (#)
+			  class Name(.)
+
+		Property: Attribute to html tag
+
+		Value 
+
+	-------------------------------------------------------------------------------------------
+		Types of CSS
+			-- inline with HTML tag - with style attribute
+				<h1> Hello </h1>
+				<h1 style="height:20px;width:30px;text-align:center;color:red"> Hello </h1>
+			-- internal stylesheet
+				<style>
+					h1,h2,p{
+						height:20px;
+						width:30px;
+						text-align:center;
+						color:red
+					}
+					.special{....}
+				<style>
+				This style will apply to all the H1 tags in your page
+
+			-- External stylesheet 
+				when you want to use same styles for lots of pages, why to write the same css again and again
+					re-use
+				mystyles.css
+					h1{ ......}
+					p{ .....}
+					#specialHeader{....}
+					.specialP{ .....}
+
+					<link href="mystyle.css" />
+
+
+
+
+
+
+
+
+
+
