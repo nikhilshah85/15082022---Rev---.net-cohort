@@ -3,6 +3,7 @@ Next Project - Individual One
 Create your Profile 
 	using HTML, CSS, JS, JQuery, JQueryUI, bootstrap
 
+	Pages
 		Home - welcome landing page 
 		About Me
 		What I do 
