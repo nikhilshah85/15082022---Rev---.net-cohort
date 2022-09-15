@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Post Data </title>
+
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+    function getProducts()
+    {
+        fetch('https://localhost:7234/api/Products').then(response => response.json())
+                                                            .then( data => {
+                                                               for(var i=0;i< data.length;i++)
+                                                                {
+                                                                    $("table").append("<tr>" +
+                                                                        "<td>" + data[i].pId + "</td>" +
+                                                                        "<td>" + data[i].pName + "</td>" +
+                                                                        "<td>" + data[i].pCategoty + "</td>" +
+                                                                        "<td>" + data[i].pPrice + "</td>" +
+                                                                        "<td>" + data[i].pIsInStock + "</td>" +
+                                                                        
+                                                                        
+                                                                        + "</tr>")
+                                                                }
+                                                              
+                                                                
+                                                            })
+                                                            .catch( errInfo => {
+                                                                alert('Errorrrr !!');
+                                                                console.log(errInfo);
+                                                            })
+
+    }
+</script>
+<body>
+
+    <button onclick="getProducts()"> Show Products </button>
+    <table> </table>
+</body>
+</html>
