@@ -1,4 +1,4 @@
-Next Project - Individual One
+P2- Individual - Personal Profile 
 
 Create your Profile 
 	using HTML, CSS, JS, JQuery, JQueryUI, bootstrap

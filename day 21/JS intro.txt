@@ -1,0 +1,85 @@
+
+
+
+
+
+
+
+Html
+CSS
+Javascript and Bootstrap
+Fetch and Cors
+
+-----------------------------------------------------------------------------------------------------------
+
+		HTML - UI
+		CSS - Decorate the UI
+		Javascript -  Scripting language - used along with HTML 
+				For
+				Manipulation, Calculation, Formatting, validation, client activities
+
+			<script> 
+				functions funName()
+				{
+						access html make changes, validations, formatting etc....
+				}
+			</script>
+	
+			
+		a. JS is used as, 
+			Internal javascript in a script tag
+			External File (.js) 
+
+		b. JS is case scencetive
+		c. JS is not Object oriented
+		d. JS is Object based, it provides some objects eg.Date and u can create instance of it 
+
+
+
+		
+
+
+		Fetch api - is an open source api (function) build into every browser to make an WEB api call 
+
+			it is a function, which returns a promise
+				gurantee is - give you the result
+						or 
+						tell the problem
+				
+
+			fetch(' url ',{post,put,delete}).then(response => respnse.json())
+						        .then( data => { display the data })
+							.catch(errMessage => { display the error })
+							.finally{ .... do anything }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Javascript Example</title>
+</head>
+
+<script>
+    function  Greetings()
+    {
+        alert('Hello and Welcome to Javasccript');
+    }
+
+    function CalculateNumber()
+    {
+                var n1 = document.getElementById("txtFirstNumber").value;
+                var n2 = document.getElementById("txtSecondNumber").value;
+
+                var addition = parseInt(n1) + parseInt(n2);
+                var subtraction = n1 - n2;
+                var multiplication = n1 * n2;
+                var division = n1 / n2;
+                // alert(addition);
+                // alert(subtraction);
+                // alert(multiplication);
+                // alert(division);
+
+                if(n2 == 0)
+                {
+                    document.getElementById("errMessage").innerText = "This will lead to Inifiniti";
+                }
+                else if (n1 == 0 || n2 == 0){
+                    document.getElementById("errMessage").innerText = "Please Enter Number greater than 0";
+                }
+                else if(n1 < n2)
+                {
+                    document.getElementById("errMessage").innerText = "First Number has to be greater than second Number, else it will result in negative values";
+                }
+                else
+                {
+                document.getElementById("addResult").innerText = "Addition is : " + addition;
+                document.getElementById("subResult").innerText = "Subtraction is : " + subtraction;
+                document.getElementById("mulResult").innerText = "Multiplication is : " + multiplication;
+                document.getElementById("divResult").innerText = "Division is : " + division;
+                }
+    }
+</script>
+<body>
+    
+    <button onclick="Greetings()"> Greet Me !! </button>
+
+    <hr/>
+
+    <input type="number" placeholder="Enter First Number" id="txtFirstNumber"/>
+    <input type="number" placeholder="Enter Second Number" id="txtSecondNumber" onblur="CalculateNumber()"/>
+    <!-- <button onclick="CalculateNumber()"> Calculate </button> -->
+
+    <h3 id="addResult"> </h3>
+    <h3 id="subResult"> </h3>
+    <h3 id="mulResult"> </h3>
+    <h3 id="divResult"> </h3>
+    <h3 id="errMessage" style="color: red"></h3>
+
+</body>
+</html>
+
+
+
+
