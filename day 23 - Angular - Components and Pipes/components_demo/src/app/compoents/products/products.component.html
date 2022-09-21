@@ -1,0 +1,14 @@
+
+
+
+<table   style="background-color: white" class="table table-bordered">
+    <tr *ngFor="let p of productList">
+        <td> {{ p.pId }} </td>
+        <td> {{ p.pName }} </td>
+        <td> {{ p.pCategory }} </td>
+        <td> {{ p.pPrice }} </td>
+        <td> {{ p.pDiscount}} </td>
+        <td> {{ p.pPrice - (p.pPrice * p.pDiscount / 100)}} </td>
+        <button class="btn btn-primary">Add</button>
+    </tr>
+</table>

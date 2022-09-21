@@ -1,0 +1,9 @@
+From the app.component.ts
+
+comment <app-orders> and <app-products>
+
+1. create a new component customers
+2. it will have customerslist with cId, cName, cCategory (regular or rate), cWalletBalance
+3. Display the data in div block
+
+display the component on app.component.html

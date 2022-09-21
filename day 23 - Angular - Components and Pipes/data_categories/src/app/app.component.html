@@ -1,0 +1,59 @@
+
+
+<h1>Understanding - Angular Data Categories </h1> 
+
+<!-- <div class="primitivedata">
+  <h2> Primitive Data Types </h2>
+  <p> Project : {{ appName }} </p>
+  <p> Developer : {{ appDeveloper }}</p>
+  <p> Team Size :  {{ appTeamSize }} </p>
+  <p> App Status : {{ appIsLive ? 'Live': ' Will Be Live Sooon'  }}</p>
+  <p> Project Cost : {{ appProjectCost  }}</p>
+  <p> Tax (18%) : {{ appProjectCost * 18 /100 }} </p>
+  <p> Profit : {{  appProjectCost - (appProjectCost * 18 /100)    }} </p>
+</div>
+
+<hr/> -->
+
+<!-- <ul>
+  <li *ngFor="let t of techList"> {{ t }} </li>
+ </ul> -->
+<!--<select>
+  <option *ngFor="let tlist of techList"> {{ tlist }} </option>
+</select>
+
+<span *ngFor="let t of techList">
+  {{t}} <input type="checkbox"/>
+</span> -->
+
+<!-- <hr/> -->
+
+<!-- <div>
+  <h3> Client Id :{{ clientDetails.clientId }} </h3>
+  <h3> Client : {{ clientDetails.clientName  }}</h3>
+  <h3> Client Location : {{ clientDetails.clientLocation }}</h3>
+  <h3> Project Domain : {{ clientDetails.clientProject }} </h3>
+</div> -->
+
+<!-- 
+<table border="1">
+  <tr *ngFor="let c of clientList">
+    <td> {{ c.clietnId }}</td>
+    <td> {{ c.clientName }}</td>
+    <td> {{ c.clientLocation }}</td>
+    <td> {{ c.clientProject }}</td>
+  </tr>
+</table> -->
+
+
+<div class="client">
+<span *ngFor="let c of clientList">
+  <h2> {{ c.clietnId }}</h2>
+  <h2> {{ c.clientName }}</h2>
+  <h2> {{ c.clientLocation }}</h2>
+  <h2> {{ c.clientProject }}</h2>
+  <button> Add Fav </button>
+  <hr/>
+</span>
+</div>
+

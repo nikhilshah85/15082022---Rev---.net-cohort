@@ -1,0 +1,16 @@
+
+<h1> Custom Pipe Demo </h1>
+
+
+<table>
+  <tr *ngFor="let e of empList">
+    <td> {{ e.empNo }}</td>
+    <td> {{ e.empName | empsaluatation : e.empGender}}</td>
+    <td> {{ e.empGender }}</td>
+    <td> {{ e.empDesignation }}</td>
+    <td> {{ e.empSalary }}</td>
+  </tr>
+</table>
+
+<hr/>
+<app-products></app-products>

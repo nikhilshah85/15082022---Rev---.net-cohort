@@ -1,0 +1,27 @@
+
+
+
+
+	Lab: 
+
+		stop the server  - Control + C
+		Close the current application - close VS Code
+		Close the browser 
+	-----------------------------------------------------------------------------
+			1. create a new application
+				open terminal 
+				ng new secondapp
+				close the terminal
+			2. start VS Code, point to the second app folder
+
+			3. Remove all the .html content from app.component.html file
+			4. Put a header - This is my Second APP - (made my self)
+				display it in center
+		create a new list of <ul> of all the languages and  technologies you have learned so far in this training
+		----------------------------------------------------------------------------
+			Make Notes 
+			Have lunch
+			Comeback at 2
+			Post Lunch : Component Development
+
+		

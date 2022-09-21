@@ -1,0 +1,29 @@
+Data Categories in Angular - for a component
+
+4 categories
+
+a. Primitive types
+	empNo:number = 101;
+	empName:string = "Nikhil"
+	empIsPermenant:bool = true;
+
+b. Primitive data Array
+	empTechList = ['Angular','.Net','React','Microservices','API','etc..']
+
+
+c. JSON Objects
+	empDetasil = {
+			empNo:101,
+			empName:'Roshan',
+			empDesignation:'Developer',
+			empSkills:[..,..,..]
+		     }
+
+d. JSON Object Array =
+	empList = [
+		{empNo:101, empName:'Someone',	empDesignation:'Developer'},	
+		{empNo:101, empName:'Someone',	empDesignation:'Developer'},	
+		{empNo:101, empName:'Someone',	empDesignation:'Developer'},	
+		{empNo:101, empName:'Someone',	empDesignation:'Developer'},	
+		{empNo:101, empName:'Someone',	empDesignation:'Developer'}
+		]

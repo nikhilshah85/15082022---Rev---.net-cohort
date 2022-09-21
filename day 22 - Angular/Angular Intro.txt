@@ -1,0 +1,135 @@
+
+
+
+
+
+
+
+
+				Web Revolution (2008 - 2016)
+		World Average first internet user = 2006
+		What did you use internet for = Chatting, Games, Emails and surfing
+		Where did you use internet = Home,school or University, Cybercafe
+		How did you use internet - Devise - Desktop / Laptop
+		Source of Internet - Telephone - Modem - Wifi
+
+		Thus developers user to develop Web Contents accordingly
+			and technologies were available accordingly
+---------------------------------------------------------------------------------------
+		What do you use internet for - Everything
+		Where do you use internet - Everywhere 
+		Devise - Phones, Tables, watches, cctv, etc...
+			Resolution - 200+ resolutions, 
+			Hardware 
+			Habbits  - based on contents 			
+					for image - zoom in zoom out 
+					for videos - flip the resolution 
+					use navigator - check in at places, lat lon
+		Source of internet - 2G and 3G, 4G and 5G 
+	-------------------------------------------------------------------
+	Developer has to develop the contents 
+
+	So far we have be developing (including ASP.net MVC apps)
+		Server centeric applications - contents
+
+		but now we have client in center and need to create 
+		Client / devise centeric applications
+
+		client devises understands only 3 things
+			HTML, CSS and JS
+
+		Thus we need a framework for the same and fix the buggs, errors, challanges with this 3 languages
+
+		HTML to HTML5
+		CSS to CSS3
+		JS - was not object oriented 
+			Thus W3C and ECMA (European Computer Manufacturing Association)
+			Introduced ES - EcmaScript which is OOPS version of Javascript
+			Very difficult for developers to learn, write and understand
+
+			Thus Microsoft came forward - understood ES
+				and made it more simple - similar to Java / C#
+				and gave a compiler for the same
+		Named that language as Typescript (TS)
+
+	----------
+	Google liked TS, used ts and gave us the framework for client centeric application development - Angular
+
+	Facebook liked TS, used ts and gave us the framework for client UI development
+			- React
+	Twitter also gave us Bootstrap based on the same 
+
+------------------------------------------------------------------
+		Angular -----> Developer ---> TS Code ---> Compiler(Node) ---> JS
+
+--------------------------------------------------------
+	Angular Ecosystem for Development - 
+			Component
+			Pipes
+			Services
+			Routing
+
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+	
+
+
+
+
+
+
+
+
+
+
+			

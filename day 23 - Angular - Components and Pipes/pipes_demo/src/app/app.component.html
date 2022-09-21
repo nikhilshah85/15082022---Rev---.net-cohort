@@ -1,0 +1,35 @@
+
+
+
+<!-- <h1> {{ firstName | uppercase}} </h1>
+<h1>  {{ firstName | lowercase }}</h1>
+<h1> {{ firstName | titlecase }} </h1>
+<h1>  {{ salary | currency : 'USD' : false }}</h1>
+
+<h1> {{ doj | date : 'MMM-dd-yyy'}} </h1>
+
+<h3> {{ orderDetails | json }}</h3> -->
+
+<table border="1">
+
+  <tr>
+    <th> Employee No </th>
+    <th> Employee Name </th>
+    <th> Employee Desigantion </th>
+    <th> Employee Gender </th>
+    <th> Employee Joining </th>
+    <th> Employee Salary </th>
+    <th> Employee Package </th>
+  </tr>
+
+  <tr *ngFor="let e of empList">
+    <td> {{ e.empNo }} </td>
+    <td> {{ e.empName | uppercase}} </td>
+    <td> {{ e.empDesignation | titlecase}} </td>
+    <td> {{ e.empGender }} </td>
+    <td>{{ e.empDOJ | date }} </td>
+    <td> {{ e.empSalary | currency : 'USD'}} </td>
+    <td> {{ e.empSalary  * 12 | currency : 'USD'}} </td>
+    
+  </tr>
+</table>
