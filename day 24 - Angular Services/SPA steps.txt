@@ -1,0 +1,60 @@
+1. create a new APP - with routing - yes
+2. You will find an extra file - app-routing.module.ts
+3. under the src\app folder - create a new folder components
+4. create below components 
+	Home
+	About
+	Contact
+	Products	
+	Orders
+	Customers
+	Login
+5. We need to go to app-routing.module.ts and configure routes
+	const routes: Routes = [
+  { path:'home',component:HomeComponent },
+  { path:'about', component:AboutComponent},
+  { path:'contact', component:ContactComponent},
+  { path:'products', component:ProductsComponent},
+  { path:'orders', component:OrdersComponent},
+  { path:'customer', component:CustomersComponent},
+  { path:'login', component:LoginComponent},
+
+];
+
+
+6. In app.component.html
+
+	we will configure links
+
+	<h1> Shopping APP </h1>
+
+<table>
+  <tr>
+  <td>  <a routerLink="home"> Home </a> </td>
+  <td>  <a routerLink="about"> About </a> </td>
+  <td>  <a routerLink="contact"> Contact </a> </td>
+  <td>  <a routerLink="products"> Products </a> </td>
+  <td>  <a routerLink="orders"> Orddrs </a> </td>
+  <td>  <a routerLink="customers"> Customers </a> </td>
+  <td>  <a routerLink="login"> Login </a> </td>
+  </tr>
+</table>
+
+
+<router-outlet></router-outlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

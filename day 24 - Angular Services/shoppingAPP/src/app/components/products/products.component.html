@@ -1,0 +1,20 @@
+
+<div>
+<table border="1">
+
+    <thead>
+        <th> Product Id </th>
+        <th> Product  </th>
+        <th> Product Category </th>
+        <th> Product Price </th>
+        <th> Discount </th>        
+    </thead>
+    <tr *ngFor="let p of productList">
+        <td> {{ p.pId }} </td>
+        <td> {{ p.pName | uppercase }} </td>
+        <td> {{ p.pCategory }} </td>
+        <td> {{ p.pPrice | currency }} </td>
+        <td> {{ p.pPrice | displaydicount : p.pCategory  | currency}}</td>        
+    </tr>
+</table>
+</div>

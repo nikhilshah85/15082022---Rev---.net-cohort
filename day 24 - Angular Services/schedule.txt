@@ -1,0 +1,13 @@
+Today 
+	1. Create a new Angular Applciation
+	2. Create a new component
+	3. Add some data to .ts file of an component
+	4. display the data in .html file	
+	5. Call the component on app.component (this is the root-level - parent component of all the component)
+	6. Use Some Pipes - in built
+	7. Create a custom pipe and use it
+	8. Get introduced to services
+		Routing Service - to create a SPA application
+		HttpClient Service - to make WebAPI calls
+		Angular Guard Service - For Authentication and security
+		CustomService
