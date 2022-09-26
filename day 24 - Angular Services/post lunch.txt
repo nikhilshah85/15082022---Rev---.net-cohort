@@ -1,0 +1,69 @@
+
+
+
+
+1. Create the routing spa app as per the steps provided
+2. create the below project using routing
+	nikhilsShoppingAPP
+
+	Home 
+	About
+	Contact
+	Products
+	AddProduct
+	UpdateProduct
+	DeleteProduct
+	SearchProduct
+	Login
+
+	Product object array will there, 
+	pId,pName,pCategory,pPrice,pIsInStock - create 10 products and display the same 
+		on products.component.html
+
+
+	Add Product will have textboxes, dropdown, button based on above product 	structure
+
+	
+	update	Product will have textboxes, dropdown, button based on above product 			structure
+
+	Delete Product will have textbox and a button
+
+	search will have textbox and button
+
+	Login will have textbox and password field and a button
+----------------------------------------------------------------------------------------
+	create a good looking app
+
+	we will connect this app with a WebAPI - which is useing EF core and Sql server
+		to store the data
+		
+	we will use HttpClient service to make api calls 
+
+
+
+3. go throught your notes for QC 
+	HTML, CSS, JS, FetchAPI, CORS 
+
+
+4. Next week - Angular and DevOps
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+		
+
+
+
+

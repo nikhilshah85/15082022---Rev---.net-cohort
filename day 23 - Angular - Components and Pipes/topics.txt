@@ -1,0 +1,15 @@
+1. Portfolios submission
+2. Angular 
+	Components
+		Data categories
+			primitive datatypes
+			primitive array	
+			JSON objects
+			JSON Object array
+		directives
+			*ngFor
+			*ngIf
+		Methods			
+	Pipes (data formatting on UI) is done useing pipes
+	Services
+3. Project P2
