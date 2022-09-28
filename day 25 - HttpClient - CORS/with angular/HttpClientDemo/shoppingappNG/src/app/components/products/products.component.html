@@ -1,0 +1,13 @@
+<p>products works!</p>
+
+<button (click)="_makeApiCall.getProductsData()" > Show Products  </button>
+
+<table>
+    <tr *ngFor="let p of _makeApiCall.products">
+        <td> {{ p.pId }} </td>
+        <td> {{ p.pName }} </td>
+        <td> {{ p.pCategory }} </td>
+        <td> {{ p.pPrice }} </td>
+        <td> {{ p.pisInStock }} </td>
+    </tr>
+</table>

@@ -1,0 +1,79 @@
+1 Createa a new application shoppingappNG
+	ng new shoppingappNG
+	yes for routing
+	css for sysling
+2. Remove everything from app.component.html
+
+3. cmd - cd src\app
+	mkdir components
+	mkdir pipes
+	mkdir services
+4. cd components
+	ng g c products
+	products.compoennts.html
+		<button> Show Products </button>
+
+5. cd..
+6. cd services
+	ng g s apicalls
+7. in app.module.ts - 
+	import { HttpClientModule} from '@angular/common/http'
+	
+	 imports: [
+    BrowserModule,
+    AppRoutingModule,HttpClientModule
+	  ],
+
+
+8. in apicalls.service.ts
+	
+//create a new variable of type HttpClient, nameing convertion is with _
+  _http:HttpClient;
+
+
+//create a variable which will hold the data
+  products:any;
+
+
+//inject the reference of the object on a constructor, and asign it to the abject you declared above
+  constructor(_httpREF:HttpClient) {
+    this._http = _httpREF;
+   }
+
+//create a method to make a call
+   getProductsData()
+   {
+      return this._http.get('https://localhost:7278/api/Products').subscribe(result => {
+        this.products = result;
+      });
+
+   }
+
+9. in product.component.ts
+
+	create a new variable of type apicall
+
+	and reference in the constructor like the previous step
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

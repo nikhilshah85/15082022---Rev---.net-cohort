@@ -1,0 +1,15 @@
+<p>searchproduct works!</p>
+
+
+<input type="number" placeholder="Enter Product Id" #txtpId/>
+
+<button (click)="_makeApiCall.searchProduct(txtpId.valueAsNumber)">Search</button>
+
+
+<div>
+    <h1> Product Id : {{ _makeApiCall.oneProduct.pId }}</h1>
+    <h1> Product Name : {{ _makeApiCall.oneProduct.pName }} </h1>
+    <h1> Product Category : {{ _makeApiCall.oneProduct.pCategory }}</h1>
+    <h1> Product Price : {{ _makeApiCall.oneProduct.pPrice }}</h1>
+    <h1> Product Is In Stock : {{ _makeApiCall.oneProduct.pisInStock }}</h1>
+</div>

@@ -9,7 +9,7 @@ HttpClient - class which has methods like
 we need to import { HttpClientModule } from '@angular/common/http'
 		in app.module.ts
 
-	register this Module in the Module sections
+	register this Module in the Import sections
 ----------------------------------------------------------------
 create a new service ng g s products 
 instanctiate a new HttpClient Object
