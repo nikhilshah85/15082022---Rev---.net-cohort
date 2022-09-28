@@ -1,0 +1,122 @@
+
+
+
+
+			1. Angular 
+				HttpClient Calls
+				Custom Service
+				Angular Guards
+			2. DevOps
+-------------------------------------------------------------------------------------
+	Interview Topics:
+			OOPS, SQL, REST/WEBAPI, MVC, Angular, HTML, CSS and JS
+			(fundmentals of DevOps, Design pattern)
+				docker, kubernetes
+
+	Interview Prep :
+			+ You get questions from previous cohort interview questions
+			+ Interview practice with me
+
+	Your Notes, Me for support, blogs and small reads
+	-----------------------------
+	P3 - starts monday
+
+		Kenneth D - is the project owner for next project
+
+		He will have greet and meet on Monday
+
+
+		----------------
+		HealthCare - hostpital, dispencery, clinic etc... 
+		Banking
+		SocialMedia
+		Online Shopping
+
+		---------------------
+		Frontend - Angular for UI, (Angular + HTML, CSS, WebAPI Calls)
+		Middleware - .net webapi
+		Backend - SQL Server
+	
+		-------------------
+		Unit testing 
+
+		--------------------------------------------------------------------
+		What is project management
+		Agile methadology
+		----------------------------------------------
+			1. Scrum Master
+			3 Teams to look at the functionality
+
+				eg. team 1 takes care of login, reset password, forgot 				pwd, Home page, About, contact
+
+				    team 2 takes care of CRUD Operatios of (Producs and 					Orders)
+
+				 team 3 takes care of Cart, Paymnets, track orders
+
+		--------------------------------------------------------
+		Scrum Master will cordinate all the activities the team and project
+
+
+
+
+
+
+
+				
+
+
+
+	
+			
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

@@ -1,0 +1,34 @@
+HttpClient - class which has methods like
+	get
+	put
+	post
+	delete
+	patch
+
+----------------------------------------------------------
+we need to import { HttpClientModule } from '@angular/common/http'
+		in app.module.ts
+
+	register this Module in the Module sections
+----------------------------------------------------------------
+create a new service ng g s products 
+instanctiate a new HttpClient Object
+	
+	 _http:HttpClient;
+	contrctor(_httpClientREF:HttpClient)
+	{
+		_http = _httpclientREF;
+	}
+
+------------------------------------------------------------------
+
+	_http.get(url)....
+
+
+
+
+
+
+
+
+
