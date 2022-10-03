@@ -1,0 +1,37 @@
+--Angular for Frontend
+--ASP.Net MVC WebAPI for Middleware
+--EF Core (Data Access Layer)
+--SQL Server for Backend
+
+--Angular Material, HTML5, CSS3 and Identity framework for Authentication
+
+--We will be using DevOps - CI and CD 
+			Continious Integration
+			Continious Deployment
+
+--we have Azure for WebAPP hosting and SQL Server for database hosting
+	also our web api will be hosted here
+--Git hub for code Repo
+
+-------------------------------
+	How will your UI look like ?
+		Color
+		logo
+		name, captions, etc...
+
+	Talking about feature, it will give you an idea about data
+
+-------------------------
+1. Work on project
+2. Interview preperation
+--------------------------------------------------------------------------------
+		Createing - using Docker / kubernetes
+
+
+
+
+
+
+
+
+
